@@ -1,0 +1,93 @@
+body {
+  /*padding-top: 50px;*/
+}
+.navbar {
+	background-color: transparent;
+	border-color: transparent;
+	font-family: 'Vollkorn', serif;
+  font-size: 20px;
+}
+.navbar .nav li a,
+.navbar .navbar-brand {
+	color: black;
+  font-size: 23px;
+}
+.navbar .navbar-brand:hover {
+	color: #428bca;
+}
+.navbar .nav li a:hover {
+  color:#428bca;
+}
+.section-landing {
+  text-align: center;
+}
+.imageAndText {
+  position: relative;
+}
+
+.imageAndText .col {
+  position: absolute; 
+  z-index: 1; 
+  top: 0; 
+  left: 0; 
+}
+
+a {
+  /*color: red;*/
+}
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 18%;
+    color: #74DE73;
+    color:black;
+}
+h3 {
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+  text-align: center;
+}
+h4 {
+  font-family: 'Vollkorn', serif;
+  font-size: 25px;
+  text-align: center;
+}
+.details {
+  margin  : 5%;
+}
+.imageAndText h1 {
+	font-family: 'Streamster';
+	font-family: 'REIS';
+	font-family: 'Dancing Script';
+	color: #74DE73;
+	color: #FFDAB9;
+	color: black;
+	font-size: 100px;
+}
+.imageAndText h3 {
+    font-family: 'Vollkorn', serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    color: #74DE73;
+    color:black;
+}
+.layer {
+  background-color: rgba(254,229,211, 0.7);
+  /*background-color: rgba(255,255,255, 0.7);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.padding-0 {
+    padding: 0;
+}
