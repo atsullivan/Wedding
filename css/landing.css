@@ -2,6 +2,10 @@
   font-family: "Reis";
   src: url(../fonts/REIS-regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: "SantElia Rough Alt";
+  src: url(../fonts/SantEliaRoughAltBoldThrDEMO.otf) format("truetype");
+}
 
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
